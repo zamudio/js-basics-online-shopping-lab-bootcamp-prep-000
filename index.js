@@ -10,13 +10,6 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  //create object from item
-  //define itemName and itemPrice??
-  //itemPrice = Math.floor(Math.random())
-  //object has {itemName: "", itemPrice: x}
-  //cart = [{itemName, itemPrice}, {itemName2, itemPrice2//{itemName3, itemPrice3}]
-  //each add returns "<itemName> has been added to your cart."
-  
   let randomPrice = Math.floor(Math.random() * 100) + 1
   var addCart = {
     itemName: item,
