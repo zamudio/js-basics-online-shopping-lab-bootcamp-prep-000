@@ -20,11 +20,6 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  //if items in cart, do actions below >><< else return "Your //shopping cart is empty."
-  //loop over every item in cart
-  //return as `In your cart, you have ${itemName} at //${itemPrice}, ... .`
-  //syntax is important for handling 1-item cart, 2-item cart, //3item cart
-  
   var tempCart = []
   
   for(let i = 0; i < cart.length; i++) {
