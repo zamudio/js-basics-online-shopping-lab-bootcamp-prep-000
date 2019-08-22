@@ -40,14 +40,17 @@ function removeFromCart(item) {
   // if .indexOf = 0+, item exists and returns index number //where item is located
   //check to see if items match
   //use array.splice() to remove
-  //return updated cart
+  //return updated cartfunction removeFromCart(item) {
   
-  if (cart.values(item) === item) {
-    
-    return "true"
+  for(let i = 0; i < cart.length; i++) {
+    if (cart[i].itemName === item) {
+      cart.splice(i, 1)
+      return cart
+    }
+    else {
+      return "That item is not in your cart."
+    }
   }
-    cart.splice(currentItemIndex, 1)
-    return cart
 }
 
 function placeOrder(cardNumber) {
