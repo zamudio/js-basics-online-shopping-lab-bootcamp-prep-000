@@ -26,7 +26,7 @@ function viewCart() {
   //return as `In your cart, you have ${itemName} at ${itemPrice}, ... .`
   //syntax is important for handling 1-item cart, 2-item cart, 3item cart
   
-  if 
+  if (cart.indexOf())
 }
 
 function total() {
