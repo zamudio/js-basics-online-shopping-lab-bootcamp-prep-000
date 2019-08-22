@@ -16,6 +16,8 @@ function addToCart(item) {
   //object has {itemName: "", itemPrice: x}
   //cart = [{itemName, itemPrice}, {itemName2, itemPrice2//{itemName3, itemPrice3}]
   //each add returns "<itemName> has been added to your cart."
+  
+  
 }
 
 function viewCart() {
