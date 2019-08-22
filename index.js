@@ -17,7 +17,7 @@ function addToCart(item) {
   //cart = [{itemName, itemPrice}, {itemName2, itemPrice2//{itemName3, itemPrice3}]
   //each add returns "<itemName> has been added to your cart."
   
-  var itemName = item
+  var itemName = {item}
   var itemPrice = Math.floor(Math.random() * 100) + 1
   var cart = Object.assign({itemName}, {itemPrice})
   return `${itemName} has been added to your cart.`
