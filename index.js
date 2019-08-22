@@ -41,7 +41,9 @@ function removeFromCart(item) {
   //use array.splice() to remove
   //return updated cart
   
-  if (cart.indexOf(item) )
+  if (cart.indexOf(item) === -1) {
+    
+  }
 }
 
 function placeOrder(cardNumber) {
