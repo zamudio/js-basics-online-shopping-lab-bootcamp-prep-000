@@ -35,13 +35,6 @@ function total() {
 }
 
 function removeFromCart(item) {
-  //if there is THE item do actions below, else return "That //item is not in your cart"
-  //if .indexOf = -1, item doesn't exist
-  // if .indexOf = 0+, item exists and returns index number //where item is located
-  //check to see if items match
-  //use array.splice() to remove
-  //return updated cartfunction removeFromCart(item) {
-  
   for(let i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
       cart.splice(i, 1)
