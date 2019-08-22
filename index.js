@@ -23,7 +23,7 @@ function addToCart(item) {
     itemPrice: randomPrice
   }
   cart.push(addCart)
-  return `${itemName} has been added to your cart.`
+  return `${cart[cart.length - 1].itemName} has been added to your cart.`
 }
 
 function viewCart() {
