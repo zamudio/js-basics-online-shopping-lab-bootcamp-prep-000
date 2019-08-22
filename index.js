@@ -47,7 +47,6 @@ function removeFromCart(item) {
   }
     cart.splice(currentItemIndex, 1)
     return cart
-  }
 }
 
 function placeOrder(cardNumber) {
