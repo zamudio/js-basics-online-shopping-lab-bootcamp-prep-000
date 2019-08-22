@@ -28,7 +28,7 @@ function viewCart() {
   var tempCart = []
   
   for(let i = 0; i < cart.length; i++) {
-    tempCart.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
+    tempCart.push(`${cart[i].itemName} at $${cart[i].itemPrice} `)
   }
   
   if (cart.length === 0) {
