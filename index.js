@@ -20,9 +20,13 @@ function addToCart(item) {
 
 function viewCart() {
   //if items in cart, do actions below >><< else return "Your shopping cart is empty."
+  //if .indexOf = -1, item doesn't exist
+  // if .indexOf = 0+, item exists and returns index number where item is located
   //loop over every item in cart
   //return as `In your cart, you have ${itemName} at ${itemPrice}, ... .`
   //syntax is important for handling 1-item cart, 2-item cart, 3item cart
+  
+  if 
 }
 
 function total() {
