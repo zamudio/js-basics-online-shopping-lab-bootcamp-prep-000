@@ -18,7 +18,11 @@ function addToCart(item) {
   //each add returns "<itemName> has been added to your cart."
   
   var itemName = item
-  var itemPrice = Math.floor(Math.random())
+  var itemPrice = Math.floor(Math.random() * 100) + 1)
+  
+  console.log(itemName)
+  console.log(itemPrice)
+  
 }
 
 function viewCart() {
