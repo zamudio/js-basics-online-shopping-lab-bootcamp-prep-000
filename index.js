@@ -42,7 +42,12 @@ function removeFromCart(item) {
   //return updated cart
   
   if (cart.indexOf(item) === -1) {
-    
+    return "That item is not in your cart"
+  }
+  else {
+    var currentItemIndex = cart.indexOf(item)
+    cart.splice(currentItemIndex)
+    return cart
   }
 }
 
