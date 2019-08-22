@@ -27,16 +27,11 @@ function viewCart() {
 }
 
 function total() {
-  //iterate through cart
-  //add up item price from each item
-  //returns total value
-  
   let cost = 0
   for (let i = 0; i < cart.length; i++) {
     cost += cart[i].itemPrice
   }
   return cost
-  return 71 //REMOVE THIS!!!!!
 }
 
 function removeFromCart(item) {
