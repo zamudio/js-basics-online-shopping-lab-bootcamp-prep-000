@@ -48,7 +48,7 @@ function removeFromCart(item) {
   }
   else {
     var currentItemIndex = cart.indexOf(item)
-    cart.splice(currentItemIndex)
+    cart.splice(currentItemIndex, 1)
     return cart
   }
 }
