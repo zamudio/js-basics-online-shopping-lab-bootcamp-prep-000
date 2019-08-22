@@ -18,7 +18,10 @@ function addToCart(item) {
   //each add returns "<itemName> has been added to your cart."
   
   let randomPrice = Math.floor(Math.random() * 100) + 1
-  var addCart = {itemName: item, itemPrice: randomPrice}
+  var addCart = {
+    itemName: item,
+    itemPrice: randomPrice
+  }
   cart.push(addCart)
   return `${itemName} has been added to your cart.`
 }
