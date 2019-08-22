@@ -11,11 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
   let randomPrice = Math.floor(Math.random() * 100) + 1
-  var addCart = {
-    itemName: item,
-    itemPrice: randomPrice
-  }
+  
+  var addCart = {itemName: item, itemPrice: randomPrice}
   cart.push(addCart)
+  
   return `${cart[cart.length - 1].itemName} has been added to your cart.`
 }
 
